@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(45, 44, 44); */
+    background-image: linear-gradient(to right, rgb(179, 108, 156),rgb(104, 0, 59));
+}
+label{
+    color: #1e1c1c;
+    font-size: 18px;
+    font-weight: bold;
+}
+#enter-key{
+    margin-top: 12px;
+    display: block;
+    border: 3px solid #011a1e ;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+}
+#display-key{
+    margin-top: 10px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: #1e1c1c;
+    font-size: 20px;
+}
